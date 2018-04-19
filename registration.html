@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+  <section class="contact max-length gutter pad-t-2 pad-b-2">
+    <div>
+      <h1>Want to stay connected with your business?</h1>
+      <p class="mega">Please select one of our plans that is budget friendly and offers 24/7 support to its users.</p>
+    </div>
+
+  <form class="push-0" method="POST" action="">
+      <fieldset>
+        <legend>Personal details</legend>
+        <div class="grid">
+          <div class="name unit push xs-1 s-1 m-1 l-1-2">
+            <label for="name">Name</label>
+            <input id="name" name="name" required>
+          </div>
+          <div class="age unit push xs-1 s-1 m-1 l-1-2">
+            <label for="age">Age</label>
+            <input id="age" required>
+          </div>
+          <div class="email unit push xs-1 s-1 m-1 l-1-2">
+            <label for="email">Your Email</label>
+            <input id="email" type="email" placeholder="me@me.com" name="email" required>
+          </div>
+          <div class="fitness unit push xs-1 s-1 m-1 l-1-2">
+            <label for="plans">Plans</label>
+            <select id="plans" name="plans">
+              <option>Basic Plan</option>
+              <option>Xtra Plan</option>
+              <option>Premium Plan</option>
+            </select>
+          </div>
+          <div class="unit push xs-1 s-1 m-1 l-1">
+            <label for="address">Address</label>
+            <textarea id="address" required></textarea>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Additional Details To Help Us Serve You Better</legend>
+        <div class="push">
+          <label for="details">Why does this plan work best for you?</label>
+          <textarea id="details" name="details" required></textarea>
+        </div>
+      </fieldset>
+      <div class="text-center">
+        <button class="btn btn-light mega" type="submit">Try Free For 30 Days!</button>
+      </div>
+      <input type="hidden" name="_subject" value="Request to sign up">
+    </form>
+  </section>
+
+
+</body>
+</html>
