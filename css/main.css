@@ -5,10 +5,6 @@ html {
   color: #FF0000;
 }
 
-.btn {
-  background-color: #FF0000;
-}
-
 .nav {
   position: relative;
   text-align: right;
@@ -32,11 +28,6 @@ html {
 
 .masthead {
   background-color: #BCBCBC;
-}
-
-.img-flex {
-  display: block;
-  width: 100%;
 }
 
 .banner {
