@@ -1,14 +1,15 @@
 html {
   font-family: Merriweather, serif;
 }
+
 .company-name {
-  color: #FF0000;
+  color: #ff0000;
 }
 
 .nav {
   position: relative;
   text-align: right;
-  background-color: #BCBCBC;
+  background-color: #bcbcbc;
   z-index: 2;
 }
 
@@ -19,7 +20,7 @@ html {
 
 .nav a:hover {
   background-color: #fff;
-  color: #FF0000;
+  color: #ff0000;
 }
 
 .nav a:focus {
@@ -27,7 +28,7 @@ html {
 }
 
 .masthead {
-  background-color: #BCBCBC;
+  background-color: #bcbcbc;
 }
 
 .banner {
@@ -70,7 +71,7 @@ p {
   padding: .4em .75em .3em;
   border: 3px solid #333;
   display: inline-block;
-  background-color: #FF0000;
+  background-color: #ff0000;
   border-radius: 4px;
   color: white;
   text-decoration: none;
@@ -79,7 +80,7 @@ p {
 
 #current {
   background-color: #fff;
-  color: #FF0000;
+  color: #ff0000;
 }
 
 .btn-big {
@@ -88,30 +89,30 @@ p {
 
 .btn:hover {
   background-color: #fff;
-  color: #FF0000;
+  color: #ff0000;
   border-color: #000;
 }
 
 footer {
-  background-color: #BCBCBC;
+  background-color: #bcbcbc;
 }
 
-.plans{
+.plans {
   background-color: #fff;
   border: 1px solid #000;
 }
 
 .background {
-  background-color: #BCBCBC;
+  background-color: #bcbcbc;
 }
 
 .box {
-  background-color: #FF0000;
+  background-color: #ff0000;
   height: 20px;
   width: 100%;
 }
 
 .box-1-2 {
-  background-color: #FF0000;
+  background-color: #ff0000;
   width: 50%;
 }
