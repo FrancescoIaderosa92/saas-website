@@ -33,3 +33,94 @@ html {
 .masthead {
   background-color: #BCBCBC;
 }
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.banner-content {
+  max-width: 45em;
+}
+
+.banner-logo {
+  float: left;
+  width: 35%;
+  padding-right: 1em;
+}
+
+.banner-info {
+  padding-right: 1em;
+  float: right;
+  width: 60%;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 0;
+  color: black;
+  display: inline;
+  line-height: 1.2;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+  padding-top: 1rem;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.btn {
+  padding: .4em .75em .3em;
+  border: 3px solid #333;
+  display: inline-block;
+  background-color: #FF0000;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  margin-top: 1em;
+}
+
+#current {
+  background-color: #fff;
+  color: #FF0000;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #FF0000;
+  border-color: #000;
+}
+
+footer {
+  background-color: #BCBCBC;
+}
+
+.plans{
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.background {
+  background-color: #BCBCBC;
+}
+
+.box {
+  background-color: #FF0000;
+  height: 20px;
+  width: 100%;
+}
+
+.box-1-2 {
+  background-color: #FF0000;
+  width: 50%;
+}
