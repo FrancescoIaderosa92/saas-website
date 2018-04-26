@@ -53,20 +53,17 @@ html {
 }
 
 h2 {
-  font-size: 3rem;
   margin: 0;
   color: black;
-
-  line-height: 1.2;
   font-family: "Roboto Condensed", sans-serif;
 }
 
 p {
   padding-top: 1rem;
   margin: 0;
-  font-size: 1.5rem;
 }
 
+nav a,
 .btn {
   padding: .4em .75em .3em;
   border: 3px solid #333;
@@ -83,11 +80,16 @@ p {
   color: #286819;
 }
 
-.btn-big {
-  font-size: 1.5rem;
+main button:focus,
+main button:hover,
+main .btn:focus,
+main .btn:hover {
+  background-color: #000;
+  outline: 6px solid #000;
+  color: #286819;
 }
 
-.btn:hover {
+nav a:hover {
   background-color: #fff;
   color: #286819;
   border-color: #000;
