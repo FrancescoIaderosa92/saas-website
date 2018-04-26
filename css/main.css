@@ -9,7 +9,7 @@ html {
 .nav {
   position: relative;
   text-align: right;
-  background-color: #bcbcbc;
+  background-color: #fff;
   z-index: 2;
 }
 
@@ -96,7 +96,7 @@ nav a:hover {
 }
 
 footer {
-  background-color: #bcbcbc;
+  background-color: #fff;
 }
 
 .plans {
@@ -120,5 +120,9 @@ footer {
 }
 
 .about-us {
+  color: #fff;
+}
+
+.support-type {
   color: #fff;
 }
